@@ -14,23 +14,19 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        Hey there, I'm Utkarsh, a Front-End Dev geeking out over web stuff. Armed with HTML, CSS, JavaScript, TypeScript, and React.js, I'm on a mission to create pixel-perfect, user-friendly interfaces.
         </p>
 
         <br />
 
+        <p className="text-xl py-4">
+        I've got a secret sauce called Tailwind CSS for making designs pop and Git/GitHub for keeping my code game strong. When I'm not lost in code, I'm probably exploring new tech, geeking out on open-source projects, or writing some blogs on Hashnode.
+        </p>
+        
+        <br />
+
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        Let's team up and turn your web dreams into reality. Drop me a line, and let's start the coding adventure!
         </p>
       </div>
     </div>

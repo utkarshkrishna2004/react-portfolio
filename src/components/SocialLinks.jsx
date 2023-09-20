@@ -1,7 +1,9 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaHashnode } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { SiHashnode } from "react-icons/si";
+
 
 const SocialLinks = () => {
   const links = [
@@ -12,7 +14,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/utkarsh-krishna-3bab41240/",
       style: "rounded-tr-md",
     },
     {
@@ -22,19 +24,28 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/theyashpatel",
+      href: "https://github.com/utkarshkrishna2004",
     },
     {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          Hashnode <SiHashnode size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "https://utkarshkrishna.hashnode.dev/",
     },
     {
       id: 4,
+      child: (
+        <>
+          Mail <HiOutlineMail size={30} />
+        </>
+      ),
+      href: "mailto:utkarshmark14@gmail.com",
+    },
+    {
+      id: 5,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
