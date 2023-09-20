@@ -13,7 +13,7 @@ const Projects = () => {
     {
       id: 1,
       src: projectportfolio2,
-      visitLink: "https://portfolio-theta-blond-55.vercel.app/",
+      visitLink: "https://utkarsh-krishna-portfolio.vercel.app/",
       codeLink: "https://github.com/utkarshkrishna2004/react-portfolio",
     },
     {
