@@ -6,6 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import TechStack from "./components/TechStack";
 import Projects from "./components/Project";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Projects />
       <TechStack />
       <Contact />
+      <Footer />
 
       <SocialLinks />
     </div>

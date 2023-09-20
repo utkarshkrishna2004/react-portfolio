@@ -8,6 +8,8 @@ import nextjs from "../assets/nextjs.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import typescript from "../assets/typescript.png";
+import git from "../assets/git.png";
 
 const TechStack = () => {
   const techs = [
@@ -31,27 +33,35 @@ const TechStack = () => {
     },
     {
       id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-blue-800",
     },
     {
       id: 5,
       src: tailwind,
-      title: "Tailwind",
+      title: "Tailwind CSS",
       style: "shadow-sky-400",
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: reactImage,
+      title: "React",
+      style: "shadow-blue-600",
     },
+    
+    
+    // {
+    //   id: 7,
+    //   src: graphql,
+    //   title: "GraphQL",
+    //   style: "shadow-pink-400",
+    // },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: git,
+      title: "Git",
+      style: "shadow-red-400",
     },
     {
       id: 8,
@@ -64,7 +74,7 @@ const TechStack = () => {
   return (
     <div
       name="TechStack"
-      className=" bg-gradient-to-b from-gray-800 to-black w-full h-screen tech-stack-section "
+      className=" pt-28 bg-gradient-to-b from-gray-800 to-black w-full h-screen tech-stack-section "
     >
       <div className="py-3 max-w-screen-lg mx-auto p-4 flex flex-col justify-center h-full text-white">
         <div className="pb-8">
